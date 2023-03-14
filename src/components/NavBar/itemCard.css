@@ -1,0 +1,31 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.item-card {
+
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    max-width: 150px;
+    border-radius:  4px ; 
+    margin: 5rem ;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .item-card:hover{
+    box-shadow: 1.25px 1.25px 10px black;
+  }
+  .card-titulo {
+    margin-bottom: 2rem ;
+    text-align: center;
+  }
+  .card-precio{
+    margin-top: 2rem;
+    text-align: center;
+  }
+
