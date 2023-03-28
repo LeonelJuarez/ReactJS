@@ -2,6 +2,7 @@ import "./navBar.css"
 import carr from "../imgCarrito/carrito.png"
 
 
+
 function CartWidget(props){
     return(
 

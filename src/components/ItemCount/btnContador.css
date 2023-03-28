@@ -1,0 +1,26 @@
+.btn_contador, .btn_agregar{
+    padding: 20px;
+    height: 20px;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+
+}
+
+.container_btn_contador {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 5rem;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.numerito{
+    font-size: x-large;
+}

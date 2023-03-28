@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "categoria": "celulares",
+        "titulo": "Celular A50",
+        "precio": 85000,
+        "stock" : 3,
+        "img":"/imgs/Iphone12.jpg"
+
+
+    },
+    {
+        "id": 2,
+        "titulo": "Celular A50",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/Iphone12.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "Modulo A50",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 9,
+        "img":"/imgs/moduloA50.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "Modulo A70",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/moduloA70.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Iphone 12",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 3,
+        "img":"/imgs/Iphone12.jpg"
+
+    },
+    {
+        "id": 6,
+        "titulo": "Iphone 12",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/Iphone12.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Modulo A50",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 9,
+        "img":"/imgs/moduloA50.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "Modulo A70",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/moduloA70.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "Iphone 12",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 3,
+        "img":"/imgs/Iphone12.jpg"
+
+    },
+    {
+        "id": 10,
+        "titulo": "Iphone 12",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/Iphone12.jpg"
+    }
+]

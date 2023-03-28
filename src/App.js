@@ -1,54 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Items from './components/NavBar/ItemListContainer';
+import Items from './components/ItemCount/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
+import ItemListContainer from './components/ItemCount/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
+
+    <BrowserRouter>
     <div className="App">     
     
       <NavBar img= "/imgs/logo.jpg" />    
-      
      
     <div className="cards">
-
-    <Items
-    titulo= "Celular A50"
-    precio= "$85000"
-    img= "/imgs/a50.jpg"
-    />
-
-    <Items
-    titulo= "Celular A50"
-    precio= "$85000"
-    img= "/imgs/Iphone12.jpg"
-    />
-
-    <Items
-    titulo= "Celular A50"
-    precio= "$85000"
-    img= "/imgs/moduloA50.jpg"
-    />
-
-    <Items
-    titulo= "Celular A50"
-    precio= "$85000"
-    img= "/imgs/moduloA70.jpg"
-    />
-
-    <Items
-    titulo= "Celular A50"
-    precio= "$85000"
-    img= "/imgs/moduloA70.jpg"
-    />
-
+      
+      <Routes>
+        <Route path='/' element={<ItemListContainer/>} />
+        <Route path='/categoria/:categoriaid' element={<ItemListContainer/>} />
+        <Route path='/detalle/:id' element={<ItemDetailContainer/>} />
+      </Routes>
     
     </div>
 
     </div>
 
-
+    </BrowserRouter>
 
   );
 }
