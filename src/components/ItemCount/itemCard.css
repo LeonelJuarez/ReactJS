@@ -30,3 +30,41 @@
     text-align: center;
   }
 
+
+
+  
+
+
+
+  .item-card-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    max-width: 150px;
+    border-radius:  4px ; 
+    margin: 5rem ;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .card-titulo-detail{
+    margin-top: -100px;
+    margin-bottom: 2rem ;
+    text-align: center;
+    font-size: x-large;
+
+  }
+
+  .card-img-detail{
+      height: 300px;
+      width: 300px;
+      
+  }
+
+  .card-precio-detail{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: x-large;
+  }
+

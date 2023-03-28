@@ -5,13 +5,13 @@
         "titulo": "Celular A50",
         "precio": 85000,
         "stock" : 3,
-        "img":"/imgs/Iphone12.jpg"
+        "img":"/imgs/a50.jpg"
 
 
     },
     {
         "id": 2,
-        "titulo": "Celular A50",
+        "titulo": "Iphone 12",
         "categoria": "celulares",
         "precio": 85000,
         "stock" : 5,
@@ -35,52 +35,91 @@
     },
     {
         "id": 5,
-        "titulo": "Iphone 12",
+        "titulo": "A70",
         "categoria": "celulares",
         "precio": 85000,
         "stock" : 3,
-        "img":"/imgs/Iphone12.jpg"
+        "img":"/imgs/A70.jpg"
 
     },
     {
         "id": 6,
-        "titulo": "Iphone 12",
+        "titulo": "E40",
         "categoria": "celulares",
         "precio": 85000,
         "stock" : 5,
-        "img":"/imgs/Iphone12.jpg"
+        "img":"/imgs/E40.jpg"
     },
     {
         "id": 7,
-        "titulo": "Modulo A50",
-        "categoria": "modulos",
-        "precio": 85000,
-        "stock" : 9,
-        "img":"/imgs/moduloA50.jpg"
-    },
-    {
-        "id": 8,
-        "titulo": "Modulo A70",
-        "categoria": "modulos",
+        "titulo": "Iphone 11",
+        "categoria": "celulares",
         "precio": 85000,
         "stock" : 5,
-        "img":"/imgs/moduloA70.jpg"
+        "img":"/imgs/Iphone11.jpg"
+    },{
+        "id": 8,
+        "titulo": "Iphone 13",
+        "categoria": "celulares",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/Iphone13.jpg"
     },
     {
         "id": 9,
-        "titulo": "Iphone 12",
-        "categoria": "celulares",
+        "titulo": "Modulo E40",
+        "categoria": "modulos",
         "precio": 85000,
-        "stock" : 3,
-        "img":"/imgs/Iphone12.jpg"
-
+        "stock" : 9,
+        "img":"/imgs/moduloE40.jpg"
     },
     {
         "id": 10,
-        "titulo": "Iphone 12",
-        "categoria": "celulares",
+        "titulo": "Modulo Ip10",
+        "categoria": "modulos",
         "precio": 85000,
         "stock" : 5,
-        "img":"/imgs/Iphone12.jpg"
+        "img":"/imgs/moduloI10.jpg"
+    },
+    {
+        "id": 11,
+        "titulo": "Modulo Ip11",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 3,
+        "img":"/imgs/moduloI11.jpg"
+
+    },
+    {
+        "id": 11,
+        "titulo": "Modulo Ip12",
+        "categoria": "modulos",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/moduloI12.jpg"
+    },
+    {
+        "id": 12,
+        "titulo": "Bateria A50",
+        "categoria": "baterias",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/BatA50.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "Bateria A70",
+        "categoria": "baterias",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/BatA70.jpg"
+    },
+    {
+        "id": 13,
+        "titulo": "Bateria E40",
+        "categoria": "baterias",
+        "precio": 85000,
+        "stock" : 5,
+        "img":"/imgs/BatE40.jpg"
     }
 ]

@@ -13,7 +13,7 @@ function Item( {producto} , props) {
                         <img  className="card-img" src={producto.img} alt={producto.titulo} ></img>     
                         <h3 className="card-precio">${producto.precio}</h3>
                         <ItemCount stock={producto.stock} /><Link to= {`/detalle/${producto.id}`} > 
-                        <button className="btn_agregar"> Detalle </button>
+                        <button className="btn_agregar"> Ver Detalles </button>
                         </Link>  
                         
          </div> 
