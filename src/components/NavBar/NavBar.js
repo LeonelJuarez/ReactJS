@@ -2,7 +2,8 @@ import "./navBar.css"
 import "./CartWidget"
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
-
+import { cartContext } from "../../context/cartContext";
+import { useContext } from "react";
 function NavBar (props){
 
     return(
